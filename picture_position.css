@@ -1,0 +1,22 @@
+.column {
+    float: left;
+    widows: 33.33%;padding:5px;
+}
+
+.row::after {
+    content: "./UK.png";
+    clear: both;
+    display: table; 
+}
+
+.row::after {
+    content: "./bangladesh.png"; 
+    clear: both; 
+    display: table;
+}
+
+.row::after {
+    content: ""; 
+    clear: both; 
+    display: table;
+}

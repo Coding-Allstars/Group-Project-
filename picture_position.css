@@ -7,7 +7,9 @@
     float: left;
     flex: 33.33%;
     widows: 33.33%;
-    padding:5px;}
+    padding:40px;
+    font-weight: 400;
+    display: block;}
    
 
 .row::after {
